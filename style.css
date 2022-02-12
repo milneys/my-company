@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+body	{
+	background-image: linear-gradient(0.25turn, #060910,#080810);
+	background-repeat: no-repeat, repeat;
+	background-attachment: fixed;
+ 	background-size: cover;
+ 	margin:0px;
+}
+a {
+	font-family: 'Rubik', sans-serif;
+}
+.button{
+	border-radius: 5px;
+	padding:8px 15px;
+	background-color: #074292;
+	color:#E1E5F2;
+  	transition: color 0.3s ease;
+  	text-decoration: none;
+}
+.button:hover {
+	background-color: #7D4FCD;
+    color: #E1E5F2;
+    text-decoration: none;
+}
+.buttonmusic{
+	border-radius: 5px;
+	padding:8px 15px;
+	background-color: #074292;
+	color:#E1E5F2;
+  	transition: color 0.3s ease;
+  	text-decoration: none;
+}
+.buttonmusic:hover {
+	background-color: #7D4FCD;
+    color: #E1E5F2;
+    text-decoration: none;
+}
+#cards {
+	padding-left: 127px;
+    padding-right: 127px;
+	display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+	background:#F1ECEC,rgba(0,0,1); 
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	transition: color 1.0s ease;
+}
+.card:hover {
+	opacity: 100%;
+	background:#C6C6F7;
+}
+.card img {
+	width: 260px;
+	border-radius: 6px;
+	align-self: center;
+	padding-bottom: 10px;
+}
+.banner {
+	background-image:
+	linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+  	url("images/bannerbg.jpg");   
+	background-size: cover; 
+	padding:200px 300px 121px 75px;
+}
+.introduction {
+	background-image:
+	linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  	url("images/intro.jpg");   
+	background-size: cover; 
+	padding-bottom:100px;
+}
+.introduction h1 {
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	text-align: center;
+	padding-top:100px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(0.5turn,#34487B,#C7709B,#FF9C80,#FFAA83);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin:0px;
+}
+.introduction p {
+	font-family: 'Rubik', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+	padding-bottom: 40px;
+	padding-right: 60px;
+    padding-left: 60px;
+	text-shadow: 0px,0px,10px,;
+}
+.banner h1	{
+	color: white;
+  	font-size: 50px;
+  	font-family: 'Rubik', sans-serif;
+  	letter-spacing: 5px;
+  	line-height: 56px;
+}
+.banner h2 {
+	color: white;
+  	font-size: 25px;
+  	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 32px;
+	font-family: 'Rubik', sans-serif;
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto;
+}
